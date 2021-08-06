@@ -1,0 +1,43 @@
+POST http://localhost:3000/userProfile HTTP/1.1
+Content-Type: application/json
+listMe: ["abs", "psb"]
+
+
+{
+    "name": "mail"
+
+}
+
+###
+
+GET http://localhost:3000/getSpendableBalance HTTP/1.1
+
+
+
+###
+
+GET http://localhost:3000/getFriends HTTP/1.1
+
+
+###
+
+POST http://localhost:3000/makePayment HTTP/1.1
+Content-Type: application/json
+
+{
+"sendAmount": "25",
+"desc": "just test",
+"to": "17n2JVhrCf1oYSMkZtZNjcf1deteUEKQsH"
+}
+
+
+### test
+
+get http://localhost:3000/test HTTP/1.1
+Content-Type: application/json
+
+
+### test 2
+
+get http://localhost:3000/test2 HTTP/1.1
+Content-Type: application/json

@@ -1,0 +1,28 @@
+{
+  "name": "handcash-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  -e js --watch routes"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@handcash/handcash-connect": "^0.2.6",
+    "@panthernine/swagger_test_sdk": "^1.0.3",
+    "dotenv": "^10.0.0",
+    "fastify": "^3.17.0",
+    "fastify-swagger": "^4.7.0",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "nodemon": "^2.0.7"
+  }
+}
